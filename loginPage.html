@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <style>
+       #background{
+           background-color: blueviolet;
+           display: grid;
+           grid-template-columns: 80%;
+           grid-template-rows: 800px;
+       }
+       #container{
+           margin-bottom: 50px;  
+           margin-top: 50px;
+           margin-left: 300px;
+           background-color:white;
+           border-radius: 10px;
+           height: 700px;
+       }
+       #container>div:nth-child(1){
+           font-weight: bolder;
+           font-size: 40px;
+           text-align: center;
+           margin: auto;
+           margin-top: 100px;
+           
+       }
+       #container>div:nth-child(2){
+           text-align: center;
+           color: gray;
+           margin-top: 90px;
+           margin-right: 350px;
+           font-size: 20px;
+           
+       }
+       #container>div:nth-child(3){
+           text-align: center;
+           color: gray;
+           margin-top: 70px;
+           margin-right: 340px;
+           font-size: 20px;
+       }
+       button{
+           margin-top: 50px;
+           border: 0px lightblue;
+           font-size: 20px;
+           color: white;
+           height: 50px;
+           width:300px;
+           background-color: blueviolet;
+           margin-left: 230px;
+       }
+       #container>div:nth-child(5){
+           color: gray;
+           text-align: center;
+           margin-top:70px;
+       }
+       #container>div:nth-child(6){
+           color: gray;
+           text-align: center;
+           margin-top:15px;
+       }
+       a{
+        text-decoration: none; 
+        color: blue; 
+       }
+       hr {
+  border-top: 2px solid gray;
+  width: 450px;
+  margin-left: 160px;
+  margin-top: 15px;
+}
+   </style>
+</head>
+<body>
+    <div id="background">
+    <div id="container">
+        <div>Login</div>
+        <div>
+        Email
+        <hr>
+    </div>
+    <div>
+        Password
+        <hr>    
+    </div>
+    <div>
+    <button>Login</button>
+</div>
+<div>
+    Forgot<a href=""> Password ?</a>
+</div>
+<div>
+    Don't have an account? <a href=""> Sign Up</a> 
+</div>
+    </div>
+</div>
+</body>
+</html>
